@@ -2,11 +2,10 @@
 
 **To:** Credit Committee
 **From:** Archit Chawla
-**Date:** October 20, 2026
 **Re:** CVS Health Corporation — senior unsecured credit review; FY2021–FY2025 and twelve months ended June 30, 2026
 **Companion model:** `CVS_credit_model.xlsx` (live formulas; inputs in `data/inputs.json`)
 
-*Independent research project prepared by Archit Chawla. This memo is not investment advice and is not a credit rating. All financial data are from CVS Health's SEC filings via EDGAR (CIK 0000064803), pulled October 20, 2026.*
+*Independent research project prepared by Archit Chawla. This memo is not investment advice and is not a credit rating. All financial data are from CVS Health's SEC filings via EDGAR (CIK 0000064803).*
 
 ## Recommendation
 
@@ -121,7 +120,7 @@ Maturity ladder (principal, at December 31, 2025, FY2025 10-K borrowings note):
 - **Adjustments.** Each add-back is a separate line item in the consolidated statements of operations or a discrete charge from the filings' segment reconciliations: FY2021 goodwill impairment $431M; FY2022 opioid litigation charges $5,803M and loss on assets held for sale $2,533M; FY2023 restructuring $507M and loss on assets held for sale $349M; FY2024 restructuring $1,179M and opioid accrual charge $100M; FY2025 goodwill impairment $5,725M, legacy litigation $1,220M (recorded H1 2025) and opioid accrual charge $320M (Q3 2025). Only the Q3 2025 items fall inside the LTM window.
 - **FFO.** Approximation, labelled as such: net income + depreciation & amortization + goodwill impairment. It excludes deferred taxes, stock compensation and other non-cash items that a full agency FFO build would include.
 - **Verification.** The companion workbook computes every ratio from the Inputs sheet with live formulas; after building, it was recalculated in LibreOffice and all 132 ratio cells matched an independent Python recomputation from `data/inputs.json` exactly (within rounding). Input values were additionally tied by hand to the FY2025 10-K balance sheet and borrowings note and to the Q2 2026 10-Q balance sheet (total debt $61,410M; cash $11,329M).
-- **Ratings reference.** Agency ratings were verified during preparation from a public ratings database (InvestmentGrade.com, accessed October 20, 2026) and are cited for reference only; the shadow rating is my own assessment.
+- **Ratings reference.** Agency ratings were verified during preparation from a public ratings database (InvestmentGrade.com) and are cited for reference only; the shadow rating is my own assessment.
 
 ## 10. Limitations
 
