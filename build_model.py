@@ -296,7 +296,7 @@ wsm = wb.create_sheet("Summary", 0)
 wsm.sheet_properties.pageSetUpPr.fitToPage = True
 wsm["A1"] = "CORPORATE CREDIT MEMO — CVS Health Corporation (NYSE: CVS)"
 wsm["A1"].font = Font(bold=True, size=14, color=NAVY)
-wsm["A2"] = ("Prepared by: Archit Chawla  |  Date: October 20, 2026  |  Independent research project — "
+wsm["A2"] = ("Prepared by: Archit Chawla  |  Independent research project — "
              "not investment advice and not a credit rating.")
 wsm["A2"].font = Font(italic=True, size=9)
 wsm["A4"] = "RECOMMENDATION: APPROVE — maintain investment-grade senior unsecured exposure (conditions in memo)"
